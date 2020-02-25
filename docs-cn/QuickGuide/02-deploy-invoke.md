@@ -35,7 +35,7 @@ Typescript sdk提供了部署合约的接口，该接口的参数如下：
 ```payer``` 支付部署费用的账户地址。必须值。
 
 ```typescript
-import { makeDeployCodeTransaction } from 'DNA'
+import { makeDeployCodeTransaction } from 'DNA-ts-SDK'
 const avmCode = '5ac56b6c766b00527ac46c766b51527ac4616c766b00c.........';
 const name = 'test_contract';
 const version = '1.0';
@@ -58,7 +58,7 @@ signTransaction(tx, privateKey)
 这里我们用TS SDK里的方法为例，说明发送交易的过程。
 
 ```typescript
-import { RestClient } from 'DNA'
+import { RestClient } from 'DNA-ts-SDK'
 const restClient = new RestClient('http://dappnode1.dnaproject.org');
 restClient.sendRawTransaction(tx.serialize()).then(res => {
     console.log(res);
@@ -163,7 +163,7 @@ restClient.getContract('bcb08a0977ed986612c29cc9a7cbf92c6bd66d86').then(res => {
 我们通过SDK可以方便的构建交易，调用合约中的方法。下面以TS SDK为例说明。我们要调用的合约是模板合约Arith，要调用的方法是合约中的加法Add。
 
 ```typescript
-import {Parameter, ParameterType, Address, reverseHex, TransactionBuilder} from 'DNA'
+import {Parameter, ParameterType, Address, reverseHex, TransactionBuilder} from 'DNA-ts-SDK'
 //set the function name to call
 const funcName = 'Add';
 
@@ -211,7 +211,7 @@ signTransaction(tx, privateKey);
 我们以TS SDK的restful接口为例，说明如何简单地发送交易。
 
 ```typescript
-import {RestClient} from 'DNA'
+import {RestClient} from 'DNA-ts-SDK'
 //construct the restful client
 const client = new RestClient();
 
@@ -240,7 +240,7 @@ client.sendRawTransaction(tx.serialize()).then(res => {
 其中Result字段的值就是交易hash。我们可以通过restful接口查询交易的执行结果。
 
 ```typescript
-import {RestClient} from 'DNA'
+import {RestClient} from 'DNA-ts-SDK'
 const client = new RestClient();
 client.getSmartCodeEvent('886b2cd35af7ea65e502077b70966652f4cf281244868814b8f3b2cf82776214').then(res => {
     console.log(res)
