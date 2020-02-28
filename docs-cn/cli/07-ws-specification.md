@@ -21,24 +21,24 @@ DNA区块链客户端 `WebSocket` 接口所支持的方法如下表所示。
 
 | 方法                                                                                            | 说明                                                 |
 | :---------------------------------------------------------------------------------------------- | :--------------------------------------------------- |
-| [heartbeat](docs-cn/cli/07-ws-specification#_1-heartbeat)                                 | 发送心跳信号                                         |
-| [subscribe](docs-cn/cli/07-ws-specification#_2-subscribe)                                 | 订阅某个服务                                         |
-| [getconnectioncount](docs-cn/cli/07-ws-specification#_3-getconnectioncount)               | 得到当前连接的节点数量                               |
-| [getblocktxsbyheight](docs-cn/cli/07-ws-specification#_4-getblocktxsbyheight)             | 返回对应高度的区块中落账的所有交易哈希               |
-| [getblockbyheight](docs-cn/cli/07-ws-specification#_5-getblockbyheight)                   | 得到该高度的区块的详细信息                           |
-| [getblockbyhash](docs-cn/cli/07-ws-specification#_6-getblockbyhash)                       | 通过区块哈希得到区块信息                             |
-| [getblockheight](docs-cn/cli/07-ws-specification#_7-getblockheight)                       | 得到当前网络上的区块高度                             |
-| [getblockhash](docs-cn/cli/07-ws-specification#_8-getblockhash)                           | 根据高度得到对应区块的哈希                           |
-| [gettransaction](docs-cn/cli/07-ws-specification#_9-gettransaction)                       | 通过交易哈希得到该交易的信息                         |
-| [sendrawtransaction](docs-cn/cli/07-ws-specification#_10-sendrawtransaction)               | 向DNA区块链网络发送交易, 如果 `preExec=1`，则交易为预执行 |
-| [getstorage](docs-cn/cli/07-ws-specification#_11-getstorage)                               | 通过合约地址哈希和键得到对应的值                     |
-| [getcontract](docs-cn/cli/07-ws-specification#_13-getcontract)                             | 根据合约地址哈希得到合约信息                         |
-| [getsmartcodeeventbyheight](docs-cn/cli/07-ws-specification#_14-getsmartcodeeventbyheight) | 得到该高度区块上的智能合约执行结果                   |
-| [getsmartcodeeventbyhash](docs-cn/cli/07-ws-specification#_15-getsmartcodeeventbyhash)     | 通过交易哈希得到该交易的执行结果                     |
-| [getblockheightbytxhash](docs-cn/cli/07-ws-specification#_16-getblockheightbytxhash)       | 通过交易哈希得到该交易落账的区块高度                 |
-| [getmerkleproof](docs-cn/cli/07-ws-specification#_17-getmerkleproof)                       | 通过交易哈希得到该交易的 `merkle` 证明                 |
-| [getsessioncount](docs-cn/cli/07-ws-specification#_18-getsessioncount)                     | 得到会话数量                                         |
-| [getversion](docs-cn/cli/07-ws-specification#_24-getversion)                               | 得到版本信息                                         |
+| [heartbeat](07-ws-specification#1-heartbeat)                                 | 发送心跳信号                                         |
+| [subscribe](07-ws-specification#2-subscribe)                                 | 订阅某个服务                                         |
+| [getconnectioncount](07-ws-specification#3-getconnectioncount)               | 得到当前连接的节点数量                               |
+| [getblocktxsbyheight](07-ws-specification#4-getblocktxsbyheight)             | 返回对应高度的区块中落账的所有交易哈希               |
+| [getblockbyheight](07-ws-specification#5-getblockbyheight)                   | 得到该高度的区块的详细信息                           |
+| [getblockbyhash](07-ws-specification#6-getblockbyhash)                       | 通过区块哈希得到区块信息                             |
+| [getblockheight](07-ws-specification#7-getblockheight)                       | 得到当前网络上的区块高度                             |
+| [getblockhash](07-ws-specification#8-getblockhash)                           | 根据高度得到对应区块的哈希                           |
+| [gettransaction](07-ws-specification#9-gettransaction)                       | 通过交易哈希得到该交易的信息                         |
+| [sendrawtransaction](07-ws-specification#10-sendrawtransaction)               | 向DNA区块链网络发送交易, 如果 `preExec=1`，则交易为预执行 |
+| [getstorage](07-ws-specification#11-getstorage)                               | 通过合约地址哈希和键得到对应的值                     |
+| [getcontract](07-ws-specification#13-getcontract)                             | 根据合约地址哈希得到合约信息                         |
+| [getsmartcodeeventbyheight](07-ws-specification#14-getsmartcodeeventbyheight) | 得到该高度区块上的智能合约执行结果                   |
+| [getsmartcodeeventbyhash](07-ws-specification#15-getsmartcodeeventbyhash)     | 通过交易哈希得到该交易的执行结果                     |
+| [getblockheightbytxhash](07-ws-specification#16-getblockheightbytxhash)       | 通过交易哈希得到该交易落账的区块高度                 |
+| [getmerkleproof](07-ws-specification#17-getmerkleproof)                       | 通过交易哈希得到该交易的 `merkle` 证明                 |
+| [getsessioncount](07-ws-specification#18-getsessioncount)                     | 得到会话数量                                         |
+| [getversion](07-ws-specification#24-getversion)                               | 得到版本信息                                         |
 
 ## 接口定义
 
