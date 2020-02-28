@@ -198,7 +198,7 @@ assert(res)
 
 可以通过 `SmartX` ，然后指定网络(或 IP 地址)，可将合约布署到本地网、或测试网、或主网。
 
-在启动节点的情况下，可以通过 [ Cli ](https://github.com/DNAProject/DNA/blob/master/docs/specifications/cli_user_guide_CN.md)，将合约布署到本地、测试网或主网。
+在启动节点的情况下，可以通过 [ Cli ](../cli/00-overview.md)，将合约布署到本地、测试网或主网。
 
 ##### 17.4 合约测试：
 
