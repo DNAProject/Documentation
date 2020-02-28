@@ -1,4 +1,6 @@
 
+<h1 align="center">CLI客户端的安装</h1>
+
 ## 下载安装包
 
 基于 `Go` 语言，我们提供了通用的DNA区块链客户端安装程序，你可以点击 [这里](https://github.com/DNAProject/DNA/releases) 下载DNA区块链客户端安装程序。
