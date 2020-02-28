@@ -21,7 +21,7 @@ DNA区块链客户端 `Restful` 接口所支持的方法如下表所示。
 
 | 方法                                                                                           | 描述                                     |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| [get_conn_count](docs-cn/cli/06-restful-specification#_1-getconn_count)                 | 得到当前连接的节点数量                   |
+| [get_conn_count](#_1-getconn_count)                 | 得到当前连接的节点数量                   |
 | [get_blk_txs_by_height](docs-cn/cli/06-restful-specification#_2-getblk_txs_by_height)   | 得到该高度的区块的所有交易哈希           |
 | [get_blk_by_height](docs-cn/cli/06-restful-specification#_3-getblk_by_height)           | 得到该高度的区块信息                     |
 | [get_blk_by_hash](docs-cn/cli/06-restful-specification#_4-getblk_by_hash)               | 通过区块哈希得到区块信息                 |
