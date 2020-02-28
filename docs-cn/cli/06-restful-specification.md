@@ -22,20 +22,20 @@ DNA区块链客户端 `Restful` 接口所支持的方法如下表所示。
 | 方法                                                                                           | 描述                                     |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------- |
 | [get_conn_count](06-restful-specification.md#1-getconn_count)                 | 得到当前连接的节点数量                   |
-| [get_blk_txs_by_height](06-restful-specification#2-getblk_txs_by_height)   | 得到该高度的区块的所有交易哈希           |
-| [get_blk_by_height](06-restful-specification#3-getblk_by_height)           | 得到该高度的区块信息                     |
-| [get_blk_by_hash](06-restful-specification#4-getblk_by_hash)               | 通过区块哈希得到区块信息                 |
-| [get_blk_height](06-restful-specification#5-getblk_height)                 | 得到当前网络上的区块高度                 |
-| [get_blk_hash](06-restful-specification#6-getblk_hash)                     | 得到该高度的区块哈希                     |
-| [get_tx](06-restful-specification#7-gettx)                                 | 通过交易哈希得到该交易的信息             |
-| [get_storage](06-restful-specification#8-getstorage)                       | 通过合约地址哈希和键得到对应的值         |
-| [get_contract_state](06-restful-specification#10-getcontract_state)         | 得到合约状态                             |
-| [get_sc_event_by_height](06-restful-specification#11-getsc_event_by_height) | 得到该高度区块上的智能合约执行结果       |
-| [get_smtcode_evts](06-restful-specification#12-getsmtcode_evts)             | 通过交易哈希得到该交易的执行结果         |
-| [get_blk_hgt_by_txhash](06-restful-specification#13-getblk_hgt_by_txhash)   | 通过交易哈希得到该交易落账的区块高度     |
-| [get_merkle_proof](06-restful-specification#14-getmerkle_proof)             | 通过交易哈希得到该交易的 `merkle` 证明     |
-| [get_version](06-restful-specification#20-getversion)                       | 得到版本信息                             |
-| [post_raw_tx](06-restful-specification#21-post_raw_tx)                       | 向DNA区块链网络发送交易                       |
+| [get_blk_txs_by_height](06-restful-specification.md#2-getblk_txs_by_height)   | 得到该高度的区块的所有交易哈希           |
+| [get_blk_by_height](06-restful-specification.md#3-getblk_by_height)           | 得到该高度的区块信息                     |
+| [get_blk_by_hash](06-restful-specification.md#4-getblk_by_hash)               | 通过区块哈希得到区块信息                 |
+| [get_blk_height](06-restful-specification.md#5-getblk_height)                 | 得到当前网络上的区块高度                 |
+| [get_blk_hash](06-restful-specification.md#6-getblk_hash)                     | 得到该高度的区块哈希                     |
+| [get_tx](06-restful-specification.md#7-gettx)                                 | 通过交易哈希得到该交易的信息             |
+| [get_storage](06-restful-specification.md#8-getstorage)                       | 通过合约地址哈希和键得到对应的值         |
+| [get_contract_state](06-restful-specification.md#10-getcontract_state)         | 得到合约状态                             |
+| [get_sc_event_by_height](06-restful-specification.md#11-getsc_event_by_height) | 得到该高度区块上的智能合约执行结果       |
+| [get_smtcode_evts](06-restful-specification.md#12-getsmtcode_evts)             | 通过交易哈希得到该交易的执行结果         |
+| [get_blk_hgt_by_txhash](06-restful-specification.md#13-getblk_hgt_by_txhash)   | 通过交易哈希得到该交易落账的区块高度     |
+| [get_merkle_proof](06-restful-specification.md#14-getmerkle_proof)             | 通过交易哈希得到该交易的 `merkle` 证明     |
+| [get_version](06-restful-specification.md#20-getversion)                       | 得到版本信息                             |
+| [post_raw_tx](06-restful-specification.md#21-post_raw_tx)                       | 向DNA区块链网络发送交易                       |
 
 ## 接口定义
 

@@ -23,22 +23,22 @@ DNA区块链客户端 `RPC` 接口所支持的方法如下表所示。
 
 | 方法                                                                                       | 描述                                           |
 | :----------------------------------------------------------------------------------------- | :--------------------------------------------- |
-| [getbestblockhash](05-rpc-specification#1-getbestblokhash)              | 获取当前节点最高区块的哈希值                   |
-| [getblock](05-rpc-specification#2-getblock)                             | 根据区块哈希或区块高度查询区块信息             |
-| [getblockcount](05-rpc-specification#3-getblockcount)                   | 查询当前的区块数量                             |
-| [getblockhash](05-rpc-specification#4-getblockhash)                     | 查询指定高度的区块哈希                         |
-| [getconnectioncount](05-rpc-specification#5-getconnectioncount)         | 查询当前节点的连接节点数                       |
-| [getrawtransaction](05-rpc-specification#6-getrawtransaction)           | 通过交易哈希得到交易详情                       |
-| [sendrawtransaction](05-rpc-specification#7-sendrawtransaction)         | 向网络中发送交易                               |
-| [getstorage](05-rpc-specification#8-getstorage)                         | 获取合约存储中指定键值对应的值                 |
-| [getversion](05-rpc-specification#9-getversion)                         | 获取当前连接节点的版本                         |
-| [getcontractstate](05-rpc-specification#10-getcontractstate)             | 根据合约地址获取合约信息                       |
-| [getmempooltxcount](05-rpc-specification#11-getmempooltxcount)           | 获取交易池（内存）中的交易的数量               |
-| [getmempooltxstate](05-rpc-specification#12-getmempooltxstate)           | 获取交易池（内存）中的交易的状态               |
-| [getsmartcodeevent](05-rpc-specification#13-getsmartcodeevent)           | 获取智能合约的执行结果                         |
-| [getblockheightbytxhash](05-rpc-specification#14-getblockheightbytxhash) | 获取交易落账的区块高度                         |
-| [getmerkleproof](05-rpc-specification#16-getmerkleproof)                 | 获取交易的  `merkle` 证明                         |
-| [getblocktxsbyheight](05-rpc-specification#21-getblocktxsbyheight)       | 获取指定高度的区块哈希                         |
+| [getbestblockhash](05-rpc-specification.md#1-getbestblokhash)              | 获取当前节点最高区块的哈希值                   |
+| [getblock](05-rpc-specification.md#2-getblock)                             | 根据区块哈希或区块高度查询区块信息             |
+| [getblockcount](05-rpc-specification.md#3-getblockcount)                   | 查询当前的区块数量                             |
+| [getblockhash](05-rpc-specification.md#4-getblockhash)                     | 查询指定高度的区块哈希                         |
+| [getconnectioncount](05-rpc-specification.md#5-getconnectioncount)         | 查询当前节点的连接节点数                       |
+| [getrawtransaction](05-rpc-specification.md#6-getrawtransaction)           | 通过交易哈希得到交易详情                       |
+| [sendrawtransaction](05-rpc-specification.md#7-sendrawtransaction)         | 向网络中发送交易                               |
+| [getstorage](05-rpc-specification.md#8-getstorage)                         | 获取合约存储中指定键值对应的值                 |
+| [getversion](05-rpc-specification.md#9-getversion)                         | 获取当前连接节点的版本                         |
+| [getcontractstate](05-rpc-specification.md#10-getcontractstate)             | 根据合约地址获取合约信息                       |
+| [getmempooltxcount](05-rpc-specification.md#11-getmempooltxcount)           | 获取交易池（内存）中的交易的数量               |
+| [getmempooltxstate](05-rpc-specification.md#12-getmempooltxstate)           | 获取交易池（内存）中的交易的状态               |
+| [getsmartcodeevent](05-rpc-specification.md#13-getsmartcodeevent)           | 获取智能合约的执行结果                         |
+| [getblockheightbytxhash](05-rpc-specification.md#14-getblockheightbytxhash) | 获取交易落账的区块高度                         |
+| [getmerkleproof](05-rpc-specification.md#16-getmerkleproof)                 | 获取交易的  `merkle` 证明                         |
+| [getblocktxsbyheight](05-rpc-specification.md#21-getblocktxsbyheight)       | 获取指定高度的区块哈希                         |
 
 ## 接口定义
 
