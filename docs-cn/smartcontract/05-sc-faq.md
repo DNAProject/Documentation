@@ -186,7 +186,7 @@ assert(res)
 
 可以使用的函数也可以在 [SmartX](https://smartx.dnaproject.org/) 上面得到提示。
 
->注：`SmartX` 是一种在线合约开发、编译、布署网站。 [这里](https://ontio.github.io/documentation/SmartX_Tutorial_en.html) 是 `SmartX` 使用教程。
+>注：`SmartX` 是一种在线合约开发、编译、布署网站。 [这里](../QuickGuide/01-debug-a-Smart-Contract.md) 是 `SmartX` 使用教程。
 
 ##### 17.2 合约编译:
 
@@ -198,7 +198,7 @@ assert(res)
 
 可以通过 `SmartX` ，然后指定网络(或 IP 地址)，可将合约布署到本地网、或测试网、或主网。
 
-在启动节点的情况下，可以[通过 [ Cli ](https://github.com/DNAProject/DNA/blob/master/docs/specifications/cli_user_guide_CN.md)，将合约布署到本地、测试网或主网。
+在启动节点的情况下，可以通过 [ Cli ](https://github.com/DNAProject/DNA/blob/master/docs/specifications/cli_user_guide_CN.md)，将合约布署到本地、测试网或主网。
 
 ##### 17.4 合约测试：
 
