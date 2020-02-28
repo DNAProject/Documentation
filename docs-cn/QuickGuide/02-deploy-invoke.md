@@ -1,8 +1,5 @@
 <h1 align="center">智能合约部署和调用</h1>
 
-<p align="center" class="version">Version 1.0.0 </p>
-
-
 ## 部署合约
 
 在部署合约之前，开发者需要准备好要部署的合约，且该合约已经被正确编译为.avm文件。
@@ -120,7 +117,7 @@ restClient.getContract('bcb08a0977ed986612c29cc9a7cbf92c6bd66d86').then(res => {
 
 ### 通过SmartX部署合约
 
-[SmartX](http://smartx.dnaproject.org) 是开发者编写、部署和调用智能合约的一站式工具。具体使用说明请参考[smart文档](smart-contract-tutorial/SmartX_Tutorial_cn.md)。
+[SmartX](http://smartx.dnaproject.org) 是开发者编写、部署和调用智能合约的一站式工具。具体使用说明请参考[智能合约文档](smartcontract/01-started.md)。
 
 
 首先，我们需要在```SmartX```上编译写好的合约。当合约编译成功后，下一步，选择部署合约。
@@ -291,8 +288,7 @@ http://{{NODE_URL}}/api/v1/smartcode/event/txhash/03295a1b38573f3a40cf75ae2bdda7
 
 ###  智能合约教程
 
-[智能合约教程](https://github.com/ontio/ontology-smartcontract/tree/master/smart-contract-tutorial)
-
+[智能合约教程](https://apidoc.dnaproject.org/smart-contract-tutorial)
 
 ## 智能合约API文档
 
