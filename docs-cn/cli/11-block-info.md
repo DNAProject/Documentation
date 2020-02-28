@@ -1,3 +1,4 @@
+<h1 align="center">Block命令介绍</h1>
 
 DNA区块链客户端 `dnaNode-CLI` 提供了信息获取模块，可以在命令行中通过 `info` 命令进行以下操作：
 

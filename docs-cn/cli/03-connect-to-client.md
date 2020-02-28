@@ -1,3 +1,4 @@
+<h1 align="center">连接到CLI客户端</h1>
 
 DNA区块链客户端提供了大量的调用接口，你可以通过 `RPC` 、 `Restful` 或者 `WebSocket` 进行访问。
 

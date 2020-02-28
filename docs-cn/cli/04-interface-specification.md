@@ -1,4 +1,5 @@
 
+<h1 align="center">CLI的接口规范</h1>
 
 DNA区块链节点的 ```RPC``` 接口、```Restful``` 接口、```WebSocket``` 接口遵循着一套公开的接口规范。
 

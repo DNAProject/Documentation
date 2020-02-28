@@ -1,3 +1,4 @@
+<h1 align="center">Contract命令介绍</h1>
 
 DNA区块链客户端 `DNA-CLI` 提供了智能合约模块，可以在命令行中通过 `contract` 命令实现如下功能：
 
