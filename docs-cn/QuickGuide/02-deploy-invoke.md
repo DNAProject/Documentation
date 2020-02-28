@@ -117,7 +117,7 @@ restClient.getContract('bcb08a0977ed986612c29cc9a7cbf92c6bd66d86').then(res => {
 
 ### 通过SmartX部署合约
 
-[SmartX](http://smartx.dnaproject.org) 是开发者编写、部署和调用智能合约的一站式工具。具体使用说明请参考[智能合约文档](smartcontract/01-started.md)。
+[SmartX](http://smartx.dnaproject.org) 是开发者编写、部署和调用智能合约的一站式工具。具体使用说明请参考[智能合约文档](../smartcontract/01-started.md)。
 
 
 首先，我们需要在```SmartX```上编译写好的合约。当合约编译成功后，下一步，选择部署合约。
