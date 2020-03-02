@@ -21,7 +21,7 @@
 
 部署合约需要用户构建特定的交易，并发送到区块链上执行。当交易执行完成后，合约就部署完成。
 
-本体链提供了不同的 ```SDK``` 和合约开发工具 ```SmartX```，帮助用户部署合约。
+DNA区块链链提供了不同的 ```SDK``` 和合约开发工具 ```SmartX```，帮助用户部署合约。
 
 ## 4. 合约调用
 
@@ -49,7 +49,7 @@
 
 ![](https://upload-images.jianshu.io/upload_images/150344-297f0b59eb7b3e94.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-根据合约的 ```abi``` 文件中的合约 ```hash``` 和合约方法，可以通过 `sdk` 构造调用合约方法的交易。这里以 `ontology-ts-sdk` 为例。
+根据合约的 ```abi``` 文件中的合约 ```hash``` 和合约方法，可以通过 `sdk` 构造调用合约方法的交易。这里以 `DNA-ts-sdk` 为例。
 
 ```javascript
 import {Parameter, ParameterType, Crypto, utils, TransactionBuilder} from 'dna-ts-sdk'
@@ -118,7 +118,7 @@ new Parameter('arg6', ParameterType.Long, '100000000000000000')
 我们以 ```TS SDK``` 的 ```restful``` 接口为例，说明如何简单地发送交易。
 
 ```javascript
-import {RestClient} from 'ontology-ts-sdk'
+import {RestClient} from 'DNA-ts-sdk'
 //construct the restful client
 const client = new RestClient();// default connects to TestNet
 
