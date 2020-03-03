@@ -246,12 +246,11 @@ for i in L:
 21.1 解析 ```Notify```，以 OEP4 的 ```transferMulti``` 为例：
 
 ```json
-    ontology.exe info status d8e5863a54f368ad950d0993d38eb504c7eddafdd39dcc81d5676887fe35 b1cf
+    ./dnaNode info status d8e5863a54f368ad950d0993d38eb504c7eddafdd39dcc81d5676887fe35 b1cf
     Transaction states:
     {
     "TxHash": "d8e5863a54f368ad950d0993d38eb504c7eddafdd39dcc81d5676887fe35b1cf",
     "State": 1,
-    "GasConsumed": 13509000,  // 执行合约函数所消耗的ONG即0.013509
     "Notify": [
         {
             "ContractAddress": "3310277e27a0ed749a3525ca2f898ebcd7d6631e",
@@ -278,15 +277,6 @@ for i in L:
                 "616f2a4a38396ff203ea01e6c070ae421bb8ce2d",
                 "aa6e06c79f864152ab7f3139074aad822ffea855",    // toAcct(ANTPeXCffDZCaCXxY9u2UdssB2EYpP4BMh)的小端地址
                 "00e40b5402"
-            ]
-        },
-        {
-            "ContractAddress": "0200000000000000000000000000000000000000",
-            "States": [
-                "transfer",
-                "AQf4Mzu1YJrhz9f3aRkkwSm9n3qhXGSh4p",
-                "AFmseVrdL9f9oyCzZefL9tG6UbviEH9ugK",
-                13509000
             ]
         }
     ]
