@@ -4,7 +4,6 @@ English | [中文](README_CN.md)
 # DNA (Distributed Networks Architecture)
 
  DNA is a decentralized distributed network protocol based on blockchain technology and is implemented in Golang.
- Through peer-to-peer network.
 
 ## Highlight Features
 
